@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/green"
+    tools:context=".Download">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center">
+
+
+    <!--  Download Pdf Layout  -->
+    <Button
+        android:id="@+id/download_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_Pdf"
+        android:textStyle="bold"
+        android:background="@color/red"/>
+
+    <!--  Download Doc Layout  -->
+    <Button
+        android:id="@+id/download_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/download_Doc"
+        android:textStyle="bold"
+        android:background="@color/red"/>
+
+
+
+    <!--  Open Downloaded Folder  -->
+    <Button
+        android:id="@+id/open_downloaded_folder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/openFolder"
+        android:textStyle="bold"
+        android:background="@color/red"/>
+    </LinearLayout>
+
+</ScrollView>
